@@ -18,6 +18,6 @@ jobs:
           push-branch: 'master'
           commit-message: 'Update windev files date'
           force-add: 'true'
-          files: 'update'
+          files: update files
           name: 'Github Action'
           email: 'noreply@github.com'
