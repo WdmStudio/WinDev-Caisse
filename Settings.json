@@ -1075,7 +1075,7 @@
             },
             "height": {
                 "type": "stEntier",
-                "label": "Nombre de bouton en hauteur ",
+                "label": "Nombre de bouton en hauteur",
                 "isDynamic": false,
                 "defaut": 1
             }
