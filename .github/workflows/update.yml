@@ -1,0 +1,18 @@
+on:
+  - push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: date --rfc-3339=second > update
+      - uses: github-actions-x/commit@v2.8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: 'Update windev files date'
+          force-add: 'true'
+          files: 'update'
+          name: 'Github Action'
+          email: 'noreply@github.com'
