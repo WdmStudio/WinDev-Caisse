@@ -21,7 +21,7 @@
         </thead>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>    
-                <td><span if="IDUnite=2">{Quantity|toWeight}</span><span if="IDUnite&lt;&gt;2">{Quantity|toInt}</span> x <b if="man=1">MAN&#160;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
+                <td><span if="IDUnite=2">{Quantity|toWeight}</span><span if="IDUnite&lt;&gt;2">{Quantity|toInt}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
             </tr>
             <tr>
                 <td>{UnitTTCPrice|toPrice}€</td> <!-- Affichage de variable -->
@@ -41,7 +41,7 @@
         </thead>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>
-                <td><span if="iSeq1=1">Dont&#160;</span><span if="iSeq1&lt;&gt;1">&#160;&#160;&#160;&#160;&#160;</span><span>{TvaName}</span></td> <!-- Sequence commençant par 1 -->
+                <td><span if="iSeq1=1">Dont&#032;</span><span if="iSeq1&lt;&gt;1">&#032;&#032;&#032;&#032;&#032;</span><span>{TvaName}</span></td> <!-- Sequence commençant par 1 -->
                 <td>{TTCPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
         </tbody>
