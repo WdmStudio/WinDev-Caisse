@@ -1,0 +1,17 @@
+Settings.json
+Disposition.ini
+Tickets/cloture.xml
+Tickets/ticket.xml
+Tickets/duplicatticket.xml
+Tickets/ticket_attente.xml
+Tickets/apport.xml
+Tickets/corner.xml
+Tickets/duplicatbonlivraison.xml
+Tickets/depense.xml
+Tickets/annulationticket.xml
+Tickets/fondCaisse.xml
+Tickets/recette.xml
+Tickets/bonlivraison.xml
+Tickets/abandonvente.xml
+Tickets/prelevement.xml
+DispositionArriere.ini
