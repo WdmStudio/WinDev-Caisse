@@ -1,0 +1,18 @@
+<ticket>
+    <h1>Apport de caisse</h1> <!-- Titre -->
+    <br></br>
+    <b align="center">Date : { DATE } {HEURE}</b>
+    <b align="center">Enregistré par {Cashier.Firstname|upper}</b>
+    <b align="center">Ticket {Header.IDPointOfSale}-{Header.TicketNumber}</b>
+    <br></br>
+    <h1>Valeur : {Amount|toPrice}€</h1>
+    <br></br>
+    <span if="Store.Name!=''" align="center">{Store.Name}</span>
+    <span if="Store.Address!=''" align="center">{Store.Address}</span>
+    <span if="Store.AddressComp!=''" align="center">{Store.AddressComp}</span>
+    <span align="center">
+        <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
+        <span id="Store.City!=''"> {Store.City|upper}</span>
+    </span>
+    <break/><!-- Coupure du ticket -->
+</ticket>

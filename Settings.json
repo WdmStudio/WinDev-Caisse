@@ -1,0 +1,1084 @@
+{
+    "INSTALLATION": {
+    	"type": "CATEGORY",
+    	"label": "Installation",
+        "apistep": {
+            "type": "stEntier",
+            "label": "Etape API",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "peripheriquestep": {
+            "type": "stEntier",
+            "label": "Etape Peripherique",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "dispositionstep": {
+            "type": "stEntier",
+            "label": "Disposition fait",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "servicestep": {
+            "type": "stEntier",
+            "label": "Service fait",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "teststep": {
+            "type": "stEntier",
+            "label": "Test fait",
+            "isDynamic": false,
+            "defaut": 0
+        }
+    },
+    "API": {
+        "type": "CATEGORY",
+        "label": "Api",
+        "token": {
+            "type": "stChaine",
+            "label": "Token",
+            "isDynamic": false,
+            "defaut": ""
+        },
+        "url": {
+            "type": "stChaine",
+            "label": "URL",
+            "isDynamic": false,
+            "defaut": ""
+        },
+        "store": {
+            "type": "stEntier",
+            "label": "Magasin",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "pos": {
+            "type": "stEntier",
+            "label": "Numéro de poste",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "usepostgres": {
+            "type": "stBooleen",
+            "label": "Utilise postgresql",
+            "isDynamic": false,
+            "defaut": true
+        },
+        "host": {
+            "type": "stChaine",
+            "label": "Base de donnée",
+            "isDynamic": false,
+            "defaut": "127.0.0.1"
+        },
+        "port": {
+            "type": "stEntier",
+            "label": "Port",
+            "isDynamic": false,
+            "defaut": "5432"
+        },
+        "username": {
+            "type": "stChaine",
+            "label": "Utilisateur",
+            "isDynamic": false,
+            "defaut": "magasin"
+        },
+        "password": {
+            "type": "stPassword",
+            "label": "Mot de passe",
+            "isDynamic": false,
+            "defaut": "magasin"
+        },
+        "dbname": {
+            "type": "stChaine",
+            "label": "Base de donnée",
+            "isDynamic": false,
+            "defaut": "magasin"
+        },
+        "mediadirectory": {
+            "type": "stCheminDossier",
+            "label": "Chemin de stockage des médias",
+            "isDynamic": false,
+            "defaut": "C:/MEDIA"
+        }
+    },
+    "PERIPHERIQUE": {
+        "type": "CATEGORY",
+        "label": "Peripherique",
+        "imprimante": {
+            "type": "CATEGORY",
+            "label": "Imprimante",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom OPOS",
+                "isDynamic": false,
+                "defaut": ""
+            },
+            "length": {
+                "type": "stEntier",
+                "label": "Taille du ticket",
+                "isDynamic": false,
+                "defaut": 40
+            },
+            "usetransaction": {
+                "type": "stBooleen",
+                "label": "Utiliser les transactions pour imprimer",
+                "isDynamic": false,
+                "defaut": true
+            },
+            "labelsupport": {
+                "type": "stBooleen",
+                "label": "Supporte les étiquettes via OPOS",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "berkel": {
+                "type": "stBooleen",
+                "label": "Imprimante Berkel ?",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "mettler": {
+                "type": "stBooleen",
+                "label": "Imprimante Mettler ?",
+                "isDynamic": false,
+                "defaut": false
+            }
+        },
+        "tpe": {
+            "type": "CATEGORY",
+            "label": "TPE",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "comport": {
+                "type": "stEntier",
+                "label": "Numéro de port COM",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "comspeed": {
+                "type": "stEntier",
+                "label": "Vitesse COM",
+                "isDynamic": false,
+                "defaut": 9600
+            },
+            "combitdata": {
+                "type": "stEntier",
+                "label": "BitData COM",
+                "isDynamic": false,
+                "defaut": 7
+            },
+            "combitstop": {
+                "type": "stEntier",
+                "label": "BitStop COM",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "comparity": {
+                "type": "stEntier",
+                "label": "Parity COM",
+                "isDynamic": false,
+                "defaut": 1
+            }
+        },
+        "balance": {
+            "type": "CATEGORY",
+            "label": "Balance",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "posscalepath": {
+                "type": "stCheminDossier",
+                "label": "PosScale exe position",
+                "isDynamic": false,
+                "defaut": ""
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom OPOS",
+                "isDynamic": true,
+                "defaut": "BizerbaScale"
+            },
+            "typebalance": {
+                "type": "stChoix",
+                "label": "Type de balance",
+                "isDynamic": false,
+                "defaut": 1,
+                "choice": [
+                    "Bizerba XC/KH",
+                    "Bizerba CS300",
+                    "Berkel XT",
+                    "Metler VCO",
+                    "Metler FreshWay"
+                ]
+            }
+        },
+        "linedisplay": {
+            "type": "CATEGORY",
+            "label": "Afficheur 2 lignes",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom OPOS",
+                "isDynamic": true,
+                "defaut": ""
+            },
+            "com": {
+                "type": "CATEGORY",
+                "label": "Connection en port com",
+                "use": {
+                    "type": "stBooleen",
+                    "label": "Mode port com",
+                    "isDynamic": false,
+                    "defaut": false
+                },
+                "port": {
+                    "type": "stEntier",
+                    "label": "Numéro de port",
+                    "isDynamic": false,
+                    "defaut": 0
+                },
+                "column": {
+                    "type": "stEntier",
+                    "label": "Nombre de colonne",
+                    "isDynamic": false,
+                    "defaut": 20
+                },
+                "speed": {
+                    "type": "stEntier",
+                    "label": "Vitesse",
+                    "isDynamic": false,
+                    "defaut": 9600
+                },
+                "bitdata": {
+                    "type": "stEntier",
+                    "label": "BitData",
+                    "isDynamic": false,
+                    "defaut": 8
+                },
+                "bitstop": {
+                    "type": "stEntier",
+                    "label": "BitStop",
+                    "isDynamic": false,
+                    "defaut": 1
+                },
+                "parity": {
+                    "type": "stEntier",
+                    "label": "Parity",
+                    "isDynamic": false,
+                    "defaut": 0
+                }
+            },
+            "texts": {
+                "type": "CATEGORY",
+                "label": "Textes",
+                "payment": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine de réglement",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text length=\"adapt\">{detail.ProductName}</text>\n\t\t<text align=\"right\">{detail.TTCPrice|ToPrice}Eur</text>\n\t</line>\n\t<line>\n\t\t<text length=\"adapt\">TOTAL</text>\n\t\t<text align=\"right\">{toPayedPrice|ToPrice}Eur</text>\n\t</line>\n</linedisplay>"
+                },
+                "productunit": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine de produit à l'unité",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text length=\"adapt\">{detail.ProductName}</text>\n\t\t<text align=\"right\">{detail.UnitTTCPrice|ToPrice}Eur</text>\n\t</line>\n\t<line>\n\t\t<text length=\"adapt\">x {detail.Quantity}</text>\n\t\t<text align=\"right\">{detail.TTCPrice|ToPrice}Eur</text>\n\t</line>\n</linedisplay>"
+                },
+                "productweight": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine de produit au poids",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text length=\"adapt\">{detail.ProductName}</text>\n\t\t<text align=\"right\">{detail.UnitTTCPrice|ToPrice}Eur</text>\n\t</line>\n\t<line>\n\t\t<text length=\"adapt\">x {detail.Quantity|ToWeight}</text>\n\t\t<text align=\"right\">{detail.TTCPrice|ToPrice}Eur</text>\n\t</line>\n</linedisplay>"
+                },
+                "info": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine d'info",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text>{message}</text>\n\t</line>\n\t<line>\n\t\t<text align=\"right\">{value|toPrice}Eur</text>\n\t</line>\n</linedisplay>"
+                },
+                "idle": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine d'attente client",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text align=\"center\">WDMStudio</text>\n\t</line>\n\t<line>\n\t\t<text align=\"center\">Bienvenue</text>\n\t</line>\n</linedisplay>"
+                },
+                "pause": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine caisse en pause",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text align=\"center\">WDMStudio</text>\n\t</line>\n\t<line>\n\t\t<text align=\"center\">Pause</text>\n\t</line>\n</linedisplay>"
+                },
+                "close": {
+                    "type": "stChaine",
+                    "edit": "multiline",
+                    "label": "Chaine caisse fermée",
+                    "isDynamic": false,
+                    "defaut": "<linedisplay>\n\t<line>\n\t\t<text align=\"center\">WDMStudio</text>\n\t</line>\n\t<line>\n\t\t<text align=\"center\">Caisse fermee</text>\n\t</line>\n</linedisplay>"
+                }
+            }
+        },
+        "scanner": {
+            "type": "CATEGORY",
+            "label": "Scanner",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom OPOS",
+                "isDynamic": false,
+                "defaut": ""
+            }
+        },
+        "tiroir": {
+            "type": "CATEGORY",
+            "label": "Tiroir caisse",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": ""
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom OPOS",
+                "isDynamic": false,
+                "defaut": ""
+            }
+        },
+        "ecranarriere": {
+        	"type": "CATEGORY",
+        	"label": "Ecran arrière",
+        	"actif": {
+        		"type": "stBooleen",
+        		"label": "Actif",
+        		"isDynamic": false,
+        		"defaut": true
+        	},
+        	"x": {
+        		"type": "stEntier",
+        		"label": "Position X",
+        		"isDynamic": false,
+        		"defaut": 800
+        	},
+        	"y": {
+        		"type": "stEntier",
+        		"label": "Position Y",
+        		"isDynamic": false,
+        		"defaut": 0
+        	},
+        	"width": {
+        		"type": "stEntier",
+        		"label": "Largeur",
+        		"isDynamic": false,
+        		"defaut": 800
+        	},
+        	"height": {
+        		"type": "stEntier",
+        		"label": "Hauteur",
+        		"isDynamic": false,
+        		"defaut": 600
+        	}
+        }
+    },
+    "FONCTIONNEMENT": {
+        "type": "CATEGORY",
+        "label": "Fonctionnement",
+        "ilot": {
+            "type": "CATEGORY",
+            "label": "Gestion Ilot",
+            "active": {
+                "type": "stBooleen",
+                "label": "Actif ?",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "name": {
+                "type": "stChaine",
+                "label": "Nom de l'ilot (Merci de respecter la casse)",
+                "isDynamic": false,
+                "defaut": ""
+            }
+        },
+        "codebar": {
+            "type": "CATEGORY",
+            "label": "Code à barre",
+            "entetecorner": {
+                "type": "stChaine",
+                "label": "Entete corner",
+                "isDynamic": false,
+                "defaut": "2410000"
+            },
+            "enteteavoir": {
+                "type": "stChaine",
+                "label": "Entete avoir",
+                "isDynamic": false,
+                "defaut": "2092"
+            },
+            "entetecoupon": {
+                "type": "stChaine",
+                "label": "Entete coupon",
+                "isDynamic": false,
+                "defaut": "2095"
+            },
+            "enteteticket": {
+                "type": "stChaine",
+                "label": "Entete ticket",
+                "isDynamic": false,
+                "defaut": "9999"
+            },
+            "authorizecabref": {
+                "type": "stBooleen",
+                "label": "Autoriser les poids prix par référence",
+                "isDynamic": false,
+                "defaut": true
+            }
+        },
+        "balance": {
+            "type": "CATEGORY",
+            "label": "Balance",
+            "raztare": {
+                "type": "stBooleen",
+                "label": "Réinitialiser la tare à chaque pesée",
+                "isDynamic": true,
+                "defaut": true
+            },
+            "typepesee": {
+                "type": "stChoix",
+                "label": "Type de pesée",
+                "isDynamic": false,
+                "defaut": 1,
+                "choice": [
+                    "Appuie produit puis pesée",
+                    "Pesée puis appuie produit"
+                ]
+            }
+        },
+        "ticket": {
+            "type": "CATEGORY",
+            "label": "Ticket",
+            "duplication": {
+                "type": "CATEGORY",
+                "label": "Duplication",
+                "dupliquercorner": {
+                    "type": "stBooleen",
+                    "label": "Dupliquer les tickets corners",
+                    "isDynamic": false,
+                    "defaut": true
+                },
+                "dupliquerlivraison": {
+                    "type": "stBooleen",
+                    "label": "Dupliquer les livraisons",
+                    "isDynamic": false,
+                    "defaut": true
+                },
+                "dupliquerticket": {
+                    "type": "stBooleen",
+                    "label": "Dupliquer les tickets",
+                    "isDynamic": false,
+                    "defaut": false
+                }
+            },
+            "pathticket": {
+                "type": "CATEGORY",
+                "label": "Chemin vers les tickets",
+                "ticket": {
+                    "type": "stChemin",
+                    "label": "XML pour les tickets",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "bonlivraison": {
+                    "type": "stChemin",
+                    "label": "XML pour les bons de livraisons",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "duplicatticket": {
+                    "type": "stChemin",
+                    "label": "XML pour les duplicats tickets",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "duplicatbonlivraison": {
+                    "type": "stChemin",
+                    "label": "XML pour les duplicats bon de livraisons",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "depense": {
+                    "type": "stChemin",
+                    "label": "XML pour les depenses",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "prelevement": {
+                    "type": "stChemin",
+                    "label": "XML pour les prelemenvents",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "apport": {
+                    "type": "stChemin",
+                    "label": "XML pour les apports",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "recette": {
+                    "type": "stChemin",
+                    "label": "XML pour les recettes",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "cloture": {
+                    "type": "stChemin",
+                    "label": "XML pour les cloture",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "comptagecaisse": {
+                    "type": "stChemin",
+                    "label": "XML pour les comptages de caisses",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "abondonvente": {
+                    "type": "stChemin",
+                    "label": "XML pour les abandons de ventes",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "annulationretourvente": {
+                    "type": "stChemin",
+                    "label": "XML pour les annulations retour vente",
+                    "isDynamic": false,
+                    "defaut": "%APPDIR%\\Tickets\\ticket.xml"
+                },
+                "annulationticket": {
+                    "type": "stChemin",
+                    "label": "XML pour les annulations de tickets",
+                    "isDynamic": false,
+                    "defaut": ""
+                },
+                "corner": {
+                    "type": "stChemin",
+                    "label": "XML pour les tickets corner",
+                    "isDynamic": false,
+                    "defaut": ""
+                },
+                "avoir": {
+                    "type": "stChemin",
+                    "label": "XML pour les avoirs",
+                    "isDynamic": false,
+                    "defaut": ""
+                },
+                "ticketattente": {
+                    "type": "stChemin",
+                    "label": "XML pour les tickets en attente",
+                    "isDynamic": false,
+                    "defaut": ""
+                }
+            },
+            "smtp": {
+                "type": "CATEGORY",
+                "label": "E-mail",
+                "host": {
+                    "type": "stChaine",
+                    "label": "Serveur",
+                    "isDynamic": true,
+                    "defaut": ""
+                },
+                "username": {
+                    "type":"stChaine",
+                    "label": "Utilisateur",
+                    "isDynamic": true,
+                    "defaut": ""
+                },
+                "password": {
+                    "type": "stPassword",
+                    "label": "Mot de passe",
+                    "isDynamic": true,
+                    "defaut": ""
+                },
+                "port": {
+                    "type": "stEntier",
+                    "label": "Numéro de port",
+                    "isDynamic": true,
+                    "defaut": 25
+                },
+                "security": {
+                    "type": "stChoix",
+                    "label": "Sécurité",
+                    "isDynamic": true,
+                    "defaut": 1,
+                    "choice": [
+                        "defaut",
+                        "TLS",
+                        "SSL"
+                    ]
+                }
+            }
+        },
+        "fraisemballe": {
+            "type": "CATEGORY",
+            "label": "Frais emballé",
+            "labelpath": {
+                "type": "stChemin",
+                "label": "Chemin vers l'étiquette XML",
+                "isDynamic": true,
+                "defaut": ""
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Largeur en mm",
+                "isDynamic": true,
+                "defaut": 58
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Hauteur en mm",
+                "isDynamic": true,
+                "defaut": 80
+            },
+            "defaultprinter": {
+                "type": "stChaine",
+                "label": "Imprimante par défaut",
+                "isDynamic": true,
+                "defaut": "Interne"
+            },
+            "logo": {
+                "type": "CATEGORY",
+                "label": "Logo étiquette",
+                "width": {
+                    "type": "stEntier",
+                    "label": "Largeur de destination (en mm)",
+                    "isDynamic": true,
+                    "defaut": 20
+                },
+                "height": {
+                    "type": "stEntier",
+                    "label": "Hauteur de destination (en mm)",
+                    "isDynamic": true,
+                    "defaut": 20
+                }
+            }
+        },
+        "selfcheckout": {
+            "type":"CATEGORY",
+            "label":"Self-Checkout",
+            "enabled": {
+                "type": "stBooleen",
+                "label": "Self-Checkout activé ?"
+            },
+            "launchatstart": {
+                "type": "stBooleen",
+                "label": "Mode actif au démarrage de la caisse ?"
+            }
+        },
+        "snacking": {
+            "type":"CATEGORY",
+            "label":"Snacking",
+            "enabled": {
+                "type": "stBooleen",
+                "label": "Snacking activé ?"
+            },
+            "launchatstart": {
+                "type": "stBooleen",
+                "label": "Mode actif au démarrage de la caisse ?"
+            }
+        },
+        "currencybarcode": {
+            "type": "stChoix",
+            "label": "Monaie du code à barre",
+            "isDynamic": false,
+            "defaut": 1,
+            "choice": [
+                "Franc",
+                "Euro"
+            ]
+        },
+        "mode": {
+            "type": "stChoix",
+            "label": "Type de poste",
+            "isDynamic": false,
+            "defaut": 1,
+            "choice": [
+                "caisse session",
+                "acompagnement vendeur encaissement separe",
+                "acompagnement vendeur",
+                "corner"
+            ]
+        },
+        "encaissement": {
+            "type": "stBooleen",
+            "label": "Le poste encaisse ?",
+            "isDynamic": false,
+            "defaut": true
+        },
+        "espece": {
+            "type": "stChoix",
+            "label": "Mode de gestion d'espèce",
+            "isDynamic": false,
+            "defaut": 2,
+            "choice": [
+                "aucun",
+                "saisie tiroir",
+                "saisie tiroir et paiement"
+            ]
+        },
+        "cloture": {
+            "type": "stChoix",
+            "label": "Mode de clôture",
+            "isDynamic": false,
+            "defaut": 4,
+            "choice": [
+                "Clôture par vendeur",
+                "Clôture par caisse",
+                "Clôture par ilot",
+                "Clôture par magasin"
+            ]
+        },
+        "connexion": {
+            "type": "stChoix",
+            "label": "Type de connexion au lancement",
+            "isDynamic": false,
+            "defaut": 1,
+            "choice": [
+                "Connexion classique",
+                "Pas de connexion",
+                "Connexion unique"
+            ]
+        },
+        "postecode": {
+            "type": "stEntier",
+            "label": "Code du poste en mode connexion unique",
+            "isDynamic": false,
+            "defaut": 1
+        },
+        "postepassword": {
+            "type": "stPassword",
+            "label": "MDP du poste en mode connexion unique",
+            "isDynamic": false,
+            "defaut": ""
+        },
+        "defautposteid": {
+            "type": "stEntier",
+            "label": "Identifiant du caissier en mode connexion unique ou pas de connexion",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "modevendeur": {
+            "type": "stChoix",
+            "label": "Type de changement vendeur",
+            "isDynamic": false,
+            "defaut": 1,
+            "choice": [
+                "Selection manuelle",
+                "Selection nouveau ticket",
+                "Selection produit"
+            ]
+        },
+        "panier": {
+            "type": "stBooleen",
+            "label": "Gestion du panier",
+            "isDynamic": false,
+            "defaut": false
+        },
+        "logicieltype": {
+            "type": "stChoix",
+            "label": "Type de logiciel ?",
+            "isDynamic": false,
+            "defaut": 1,
+            "choice": [
+                "WER",
+                "ATLAS"
+            ]
+        }
+    },
+    "DISPOSITION": {
+        "type":"CATEGORY",
+        "label":"Disposition",
+        "width": {
+            "type": "stEntier",
+            "label": "Largeur de l'écran",
+            "isDynamic": false,
+            "defaut": 800
+        },
+        "height": {
+            "type": "stEntier",
+            "label": "Hauteur de l'écran",
+            "isDynamic": false,
+            "defaut": 600
+        },
+        "scalevertical": {
+        	"type": "stBooleen",
+        	"label": "La barre de poid est vertical ?",
+        	"isDynamic": false,
+        	"defaut": false
+        },
+        "hasscale": {
+        	"type": "stBooleen",
+        	"label": "A une balance ?",
+        	"isDynamic": false,
+        	"defaut": false
+        },
+        "scaleheight": {
+            "type": "stEntier",
+            "label": "Hauteur de la barre de poids",
+            "isDynamic": false,
+            "defaut": 0
+        },
+        "toppart": {
+            "type": "CATEGORY",
+            "label": "Colonnes Haute",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 4
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 3
+            }
+        },
+        "middlepart": {
+            "type": "CATEGORY",
+            "label": "Colonnes Milieu",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 0
+            }
+        },
+        "bottompart": {
+            "type": "CATEGORY",
+            "label": "Colonnes Basse",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 2
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 5
+            }
+        },
+        "deniedzone": {
+            "type": "CATEGORY",
+            "label": "Zone de bouton interdite",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 0
+            }
+        },
+        "logo": {
+            "type": "CATEGORY",
+            "label": "Logo",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 2
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Largeur",
+                "isDynamic": false,
+                "defaut": 107
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Hauteur",
+                "isDynamic": false,
+                "defaut": 61
+            }
+        },
+        "deniedzonelogo": {
+            "type": "CATEGORY",
+            "label": "Zone de bouton interdite par logo",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 1
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 1
+            }
+        },
+        "button": {
+            "type": "CATEGORY",
+            "label": "Boutons",
+            "offsetx": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "offsety": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Largeur",
+                "isDynamic": false,
+                "defaut": 110
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Hauteur",
+                "isDynamic": false,
+                "defaut": 67
+            }
+        },
+        "actionbutton": {
+            "type": "CATEGORY",
+            "label": "Bouton d'action",
+            "x": {
+                "type": "stEntier",
+                "label": "X",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "y": {
+                "type": "stEntier",
+                "label": "Y",
+                "isDynamic": false,
+                "defaut": 7
+            },
+            "width": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en largeur",
+                "isDynamic": false,
+                "defaut": 2
+            },
+            "height": {
+                "type": "stEntier",
+                "label": "Nombre de bouton en hauteur",
+                "isDynamic": false,
+                "defaut": 1
+            }
+        }
+    }
+}

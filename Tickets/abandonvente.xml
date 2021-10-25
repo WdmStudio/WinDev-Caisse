@@ -1,0 +1,77 @@
+<ticket>
+    <!-- <img src="C:\WINDEVGDS/logoWDM.png"></img> -->
+    <br></br>
+    <h1>Abandon de vente</h1> <!-- Titre -->
+    <br></br>
+    <b align="center" if="IDClients&gt;0">Client : {Client.firstname} {Client.lastname}</b>
+    <b align="center">Date : { DATE } {HEURE}</b>
+    <b align="center">Servi par {Cashier.Firstname|upper}</b>
+    <b align="center">Ticket {Header.IDPointOfSale}-{Header.TicketNumber}</b>
+    <table parameter="detsheets" nohead="1"> <!-- Table avec valeur dynamique -->
+        <thead> <!-- Entete -->
+            <tr>
+                <th width="100">Nom</th> <!-- Taille de 10% -->
+            </tr>
+            <tr> <!-- Premiere ligne -->
+                <th width="25" align="right">Prix Unitaire</th> <!-- Taille de 30% aligne a gauche -->
+                <th width="40" align="left"></th> <!-- Taille de 30% aligne a gauche -->
+                <th width="35" align="right">Total</th> <!-- Taille de 60% -->
+            </tr>
+        </thead>
+        <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
+            <tr>    
+                <td><span if="IDUnite=2">{Quantity|toWeight}</span><span if="IDUnite&lt;&gt;2">{Quantity|toInt}</span> x <b if="man=1">MAN&#160;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
+            </tr>
+            <tr>
+                <td>{UnitTTCPrice|toPrice}€</td> <!-- Affichage de variable -->
+                <td>{UniteName}</td>
+                <td>{TTCBrutPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 align="center">TOTAL = {Header.TTCPrice|toPrice}€</h1>
+    
+    <table parameter="vats" nohead="1"> <!-- Table avec valeur dynamique -->
+        <thead> <!-- Entete -->
+            <tr> <!-- Premiere ligne -->
+                <th width="70"> </th> <!-- Taille de 10% -->
+                <th width="30" align="right"></th> <!-- Taille de 30% aligne a gauche -->
+            </tr>
+        </thead>
+        <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
+            <tr>
+                <td><span if="iSeq1=1">Dont&#160;</span><span if="iSeq1&lt;&gt;1">&#160;&#160;&#160;&#160;&#160;</span><span>{TvaName}</span></td> <!-- Sequence commençant par 1 -->
+                <td>{TTCPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- paiements -->
+    <table parameter="payments" nohead="1"> <!-- Table avec valeur dynamique -->
+        <thead> <!-- Entete -->
+            <tr> <!-- Premiere ligne -->
+                <th width="10"> </th> <!-- Taille de 10% -->
+                <th width="50"> </th> <!-- Taille de 10% -->
+                <th width="40" align="right"></th>
+            </tr>
+        </thead>
+        <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
+            <tr>
+                <td>{Abbreviation}</td> <!-- Sequence commençant par 1 -->
+                <td>{ProductName}</td> <!-- Affichage de variable -->
+                <td>{TTCPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
+            </tr>
+        </tbody>
+    </table>
+    <br></br>
+    <span if="Store.Name!=''" align="center">{Store.Name}</span>
+    <span if="Store.Address!=''" align="center">{Store.Address}</span>
+    <span if="Store.AddressComp!=''" align="center">{Store.AddressComp}</span>
+    <span align="center">
+        <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
+        <span id="Store.City!=''"> {Store.City|upper}</span>
+    </span>
+    <barcode type="code128" text="above">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <break/><!-- Coupure du ticket -->
+</ticket>
