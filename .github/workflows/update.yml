@@ -5,9 +5,14 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: date --rfc-3339=second > update
-      - uses: github-actions-x/commit@v2.8
+      - name: 'Checking out...'
+        uses: actions/checkout@v2
+      - name: 'Updating last date'
+        run: date --rfc-3339=second > update
+      - name: 'Updating file directories'
+        run: find . -type f -not -path '*/\.*' -not -name 'update' -not -name 'README.md' -not -name 'files' | sed 's|^./||' > files
+      - name: 'Commit and push files'
+        uses: github-actions-x/commit@v2.8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
