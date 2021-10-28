@@ -30,7 +30,7 @@
             "type": "stEntier",
             "label": "Test fait",
             "isDynamic": false,
-            "defaut": 0
+            "defaut": 1
         }
     },
     "API": {
