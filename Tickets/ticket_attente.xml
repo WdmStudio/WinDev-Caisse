@@ -73,6 +73,6 @@
         <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
         <span id="Store.City!=''"> {Store.City|upper}</span>
     </span>
-    <barcode type="code128" text="above" width="200" height="50">{Barcode}</barcode>
+    <barcode type="code128" text="below" width="200" height="50">{Barcode}</barcode>
     <break/><!-- Coupure du ticket -->
 </ticket>
