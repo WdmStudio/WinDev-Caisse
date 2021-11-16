@@ -651,10 +651,20 @@
             "type": "CATEGORY",
             "label": "Frais emballé",
             "labelpath": {
-                "type": "stChemin",
-                "label": "Chemin vers l'étiquette XML",
-                "isDynamic": true,
-                "defaut": ""
+                "type": "CATEGORY",
+                "label": "Chemins",
+                "kg": {
+                    "type": "stChemin",
+                    "label": "Fichier d'etiquette KG",
+                    "isDynamic": false,
+                    "defaut": ""
+                },
+                "piece": {
+                    "type": "stChemin",
+                    "label": "Fichier d'etiquette PIECE",
+                    "isDynamic": false,
+                    "defaut": ""
+                }
             },
             "width": {
                 "type": "stEntier",
