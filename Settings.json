@@ -650,7 +650,7 @@
         "fraisemballe": {
             "type": "CATEGORY",
             "label": "Frais emballé",
-            "labelpath": {
+            "labelpaths": {
                 "type": "CATEGORY",
                 "label": "Chemins",
                 "kg": {
