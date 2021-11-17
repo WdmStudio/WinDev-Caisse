@@ -160,5 +160,9 @@
         <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
         <span id="Store.City!=''"> {Store.City|upper}</span>
     </span>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <break/><!-- Coupure du ticket -->
 </ticket>

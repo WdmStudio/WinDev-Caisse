@@ -17,12 +17,17 @@
                 <th width="35" align="right">Total</th> <!-- Taille de 60% -->
             </tr>
         </thead>
+        <tbody if="Type=sous_total"> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
+            <tr>    
+                <td><br></br><span>Sous-Total {ProductName} </span><b>{TTCBrutPrice|toPrice}€</b><br></br></td> <!-- Sequence commençant par 1 -->
+            </tr>
+        </tbody>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>    
                 <td><span if="UniteType=1">{Quantity|toInt}</span><span if="UniteType&lt;&gt;1">{Quantity|toWeight}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
             </tr>
             <tr>
-                <td>{UnitTTCPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
+                <td>&#032;&#032;&#032;&#032;&#032;{UnitTTCPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
                 <td>{TTCBrutPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
         </tbody>
@@ -68,6 +73,10 @@
     <span if="Store.AddressComp!=''" align="center">{Store.AddressComp}</span>
     <span if="Store.PostalCode!=''" align="center">{Store.PostalCode}</span> 
     <span id="Store.City!=''" align="center"> {Store.City|upper}</span>
-    <barcode type="code128" text="above" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <barcode type="code128" text="below" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <break/><!-- Coupure du ticket -->
 </ticket>

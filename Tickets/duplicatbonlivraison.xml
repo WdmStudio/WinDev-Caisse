@@ -14,18 +14,21 @@
                 <th width="100">Nom</th> <!-- Taille de 10% -->
             </tr>
             <tr> <!-- Premiere ligne -->
-                <th width="25" align="right">Prix Unitaire</th> <!-- Taille de 30% aligne a gauche -->
-                <th width="40" align="left"></th> <!-- Taille de 30% aligne a gauche -->
+                <th width="65" align="left">Unité</th> <!-- Taille de 30% aligne a gauche -->
                 <th width="35" align="right">Total</th> <!-- Taille de 60% -->
             </tr>
         </thead>
+        <tbody if="Type=sous_total"> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
+            <tr>    
+                <td><br></br><span>Sous-Total {ProductName} </span><b>{TTCBrutPrice|toPrice}€</b><br></br></td> <!-- Sequence commençant par 1 -->
+            </tr>
+        </tbody>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>    
                 <td><span if="UniteType=1">{Quantity|toInt}</span><span if="UniteType&lt;&gt;1">{Quantity|toWeight}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
             </tr>
             <tr>
-                <td>{UnitTTCPrice|toPrice}€</td> <!-- Affichage de variable -->
-                <td>/ {UniteName}</td>
+                <td>&#032;&#032;&#032;&#032;&#032;{UnitTTCPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
                 <td>{TTCBrutPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
         </tbody>
@@ -71,6 +74,10 @@
         <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
         <span id="Store.City!=''"> {Store.City|upper}</span>
     </span>
-    <barcode type="code128" text="above">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <barcode type="code128" text="below">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <break/><!-- Coupure du ticket -->
 </ticket>

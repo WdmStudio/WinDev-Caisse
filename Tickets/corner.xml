@@ -54,6 +54,9 @@
         <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
         <span id="Store.City!=''"> {Store.City|upper}</span>
     </span>
-    <barcode type="ean13" text="above">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
-    <break/><!-- Coupure du ticket -->
+    <barcode type="ean13" text="below" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
 </ticket>
