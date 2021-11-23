@@ -1,5 +1,5 @@
 <ticket>
-    <!-- <img src="C:\WINDEVGDS/logoWDM.png"></img> -->
+    <img src="Logo.bmp"></img>
     <br></br>
     <h1>Ticket de vente</h1> <!-- Titre -->
     <br></br>
@@ -68,11 +68,11 @@
         </tbody>
     </table>
     <br></br>
-    <span if="Store.Name!=''" align="center">{Store.Name}</span>
-    <span if="Store.Address!=''" align="center">{Store.Address}</span>
-    <span if="Store.AddressComp!=''" align="center">{Store.AddressComp}</span>
-    <span if="Store.PostalCode!=''" align="center">{Store.PostalCode}</span> 
-    <span id="Store.City!=''" align="center"> {Store.City|upper}</span>
+    <span if="Store.Name&lt;&gt;" align="center">{Store.Name}</span>
+    <span if="Store.Address&lt;&gt;" align="center">{Store.Address}</span>
+    <span if="Store.AddressComp&lt;&gt;" align="center">{Store.AddressComp}</span>
+    <span if="Store.PostalCode&lt;&gt;" align="center">{Store.PostalCode}</span> 
+    <span id="Store.City&lt;&gt;" align="center"> {Store.City|upper}</span>
     <barcode type="code128" text="below" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
     <br></br>
     <br></br>

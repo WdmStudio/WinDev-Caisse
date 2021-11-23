@@ -1,5 +1,5 @@
 <ticket>
-    <!-- <img src="C:\Users\leo\Downloads\logoWDM.png"></img> -->
+    <img src="Logo.bmp"></img>
     <br></br>
     <h1>Duplicata livraison</h1> <!-- Titre -->
     <br></br>
@@ -67,12 +67,12 @@
         </tbody>
     </table>
     <br></br>
-    <span if="Store.Name!=''" align="center">{Store.Name}</span>
-    <span if="Store.Address!=''" align="center">{Store.Address}</span>
-    <span if="Store.AddressComp!=''" align="center">{Store.AddressComp}</span>
+    <span if="Store.Name&lt;&gt;" align="center">{Store.Name}</span>
+    <span if="Store.Address&lt;&gt;" align="center">{Store.Address}</span>
+    <span if="Store.AddressComp&lt;&gt;" align="center">{Store.AddressComp}</span>
     <span align="center">
-        <span if="Store.PostalCode!=''">{Store.PostalCode}</span> 
-        <span id="Store.City!=''"> {Store.City|upper}</span>
+        <span if="Store.PostalCode&lt;&gt;">{Store.PostalCode}</span> 
+        <span id="Store.City&lt;&gt;"> {Store.City|upper}</span>
     </span>
     <barcode type="code128" text="below">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
     <br></br>
