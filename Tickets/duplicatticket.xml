@@ -51,7 +51,7 @@
         </tbody>
     </table>
 
-    <!-- paiements -->
+    <!-- paiements --><br></br>
     <table parameter="payments" nohead="1"> <!-- Table avec valeur dynamique -->
         <thead> <!-- Entete -->
             <tr> <!-- Premiere ligne -->
