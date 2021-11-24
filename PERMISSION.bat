@@ -1,0 +1,1 @@
+CACLS . /T /P everyone:f
