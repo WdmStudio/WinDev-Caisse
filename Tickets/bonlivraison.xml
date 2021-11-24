@@ -24,7 +24,7 @@
         </tbody>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>    
-                <td><span if="UniteType=1">{Quantity|toInt}</span><span if="UniteType&lt;&gt;1">{Quantity|toWeight}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
+                <td><span if="UniteType=1">{Quantity|toInt} {UniteName}</span><span if="UniteType&lt;&gt;1">{Quantity|toWeight} {UniteName}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
             </tr>
             <tr>
                 <td>&#032;&#032;&#032;&#032;&#032;{UnitTTCPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
