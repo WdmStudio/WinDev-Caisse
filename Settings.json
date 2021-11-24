@@ -725,6 +725,18 @@
                 "label": "Mode actif au démarrage de la caisse ?"
             }
         },
+        "selfservice": {
+            "type":"CATEGORY",
+            "label":"Self-Service",
+            "enabled": {
+                "type": "stBooleen",
+                "label": "Self-Service activé ?"
+            },
+            "launchatstart": {
+                "type": "stBooleen",
+                "label": "Mode actif au démarrage de la caisse ?"
+            }
+        },
         "snacking": {
             "type":"CATEGORY",
             "label":"Snacking",
