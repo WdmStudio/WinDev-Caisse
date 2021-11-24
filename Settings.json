@@ -617,6 +617,12 @@
                     "label": "XML pour les tickets en attente",
                     "isDynamic": false,
                     "defaut": ""
+                },
+                "libreservice": {
+                    "type": "stChemin",
+                    "label": "XML pour les tickets en libre service balance",
+                    "isDynamic": false,
+                    "defaut": ""
                 }
             },
             "smtp": {
