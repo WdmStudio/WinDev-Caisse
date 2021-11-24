@@ -127,6 +127,18 @@
                 "isDynamic": false,
                 "defaut": 40
             },
+            "nbcharsforced": {
+                "type": "stEntier",
+                "label": "Taille forcé",
+                "isDynamic": false,
+                "defaut": 0
+            },
+            "nbspace": {
+                "type": "stEntier",
+                "label": "Espace fin ticket",
+                "isDynamic": false,
+                "defaut": 4
+            },
             "usetransaction": {
                 "type": "stBooleen",
                 "label": "Utiliser les transactions pour imprimer",
