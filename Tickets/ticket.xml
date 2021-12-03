@@ -3,7 +3,7 @@
     <br></br>
     <h1>Ticket de vente</h1> <!-- Titre -->
     <br></br>
-    <b align="center" if="IDClients&lt;&gt;0">Client : {Client.firstname} {Client.lastname}</b>
+    <b align="center" ><span if="Header.IDClients&lt;&gt;0">Client:</span> {Client.firstname} {Client.lastname}</b>
     <b align="center">Date : { DATE } {HEURE}</b>
     <b align="center">Servi par {Cashier.Firstname|upper}</b>
     <b align="center">Ticket {Header.IDPointOfSale}-{Header.TicketNumber}</b>

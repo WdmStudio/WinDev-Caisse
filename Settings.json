@@ -730,7 +730,7 @@
             "label":"Self-Service",
             "enabled": {
                 "type": "stBooleen",
-                "label": "Self-Service activé ?"
+                "label": "Self-Service activé sur balance ?"
             },
             "launchatstart": {
                 "type": "stBooleen",
