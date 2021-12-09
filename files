@@ -4,6 +4,7 @@ Tickets/bonlivraison.xml
 Tickets/apport.xml
 Tickets/abandonvente.xml
 Tickets/corner.xml
+Tickets/retourvente.xml
 Tickets/ticket.xml
 Tickets/depense.xml
 Tickets/cloture.xml
