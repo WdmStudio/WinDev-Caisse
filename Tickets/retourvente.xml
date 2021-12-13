@@ -1,7 +1,7 @@
 <ticket>
     <!-- <img src="C:\WINDEVGDS/logoWDM.png"></img> -->
     <br></br>
-    <h1>Retour produit</h1> <!-- Titre -->
+    <h1>{TitreTicket}</h1> <!-- Titre -->
     <br></br>
     <b align="center" if="IDClients&gt;0">Client : {Client.firstname} {Client.lastname}</b>
     <b align="center">Date : { DATE } {HEURE}</b>
