@@ -617,12 +617,6 @@
                     "label": "XML pour les tickets en attente",
                     "isDynamic": false,
                     "defaut": ""
-                },
-                "libreservice": {
-                    "type": "stChemin",
-                    "label": "XML pour les tickets en libre service balance",
-                    "isDynamic": false,
-                    "defaut": ""
                 }
             },
             "smtp": {
@@ -736,11 +730,17 @@
             "label":"Self-Service",
             "enabled": {
                 "type": "stBooleen",
-                "label": "Self-Service activé ?"
+                "label": "Self-Service activé sur balance ?"
             },
             "launchatstart": {
                 "type": "stBooleen",
                 "label": "Mode actif au démarrage de la caisse ?"
+            },
+            "etiquette": {
+                "type": "stChemin",
+                "label": "XML pour l'etiquette",
+                "isDynamic": false,
+                "defaut": ""
             }
         },
         "snacking": {
