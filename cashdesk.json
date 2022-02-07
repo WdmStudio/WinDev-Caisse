@@ -1,0 +1,618 @@
+{
+    "800x600": {
+        "general": {
+            "width": 800,
+            "height": 600,
+            "scale": 0,
+            "position": null
+        },
+        "top": {
+            "height": 5,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 55,
+            "width": 107,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 61,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 9
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "800x600 avec barre de poids horizontale": {
+        "general": {
+            "width": 800,
+            "height": 600,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height": 3,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 107,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 67,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 5
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x600": {
+        "general": {
+            "width": 1024,
+            "height": 600,
+            "scale": 0,
+            "position": "h"
+        },
+        "top": {
+            "height": 5,
+            "width": 6,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 61,
+            "width": 214,
+            "x": 0,
+            "y": 2
+        },
+        "button": {
+            "height": 60,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 9
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x600 avec barre de poids horizontale": {
+        "general": {
+            "width": 1024,
+            "height": 600,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height": 3,
+            "width": 6,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 4,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 69,
+            "width": 214,
+            "x": 4,
+            "y": 2
+        },
+        "button": {
+            "height": 74,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 6
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 4
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x600 avec barre de poids vertical": {
+        "general": {
+            "width": 1024,
+            "height": 600,
+            "scale": 224,
+            "position": "v"
+        },
+        "top": {
+            "height": 5,
+            "width": 4,
+            "x": 224,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 224,
+            "y": 0
+        },
+        "logo": {
+            "height": 93,
+            "width": 224,
+            "x": 0,
+            "y": 507
+        },
+        "button": {
+            "height": 61,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 9
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_logo": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x768": {
+        "general": {
+            "width": 1024,
+            "height": 768,
+            "scale": 0,
+            "position": null
+        },
+        "top": {
+            "height": 6,
+            "width": 6,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 4,
+            "width": 3,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 66,
+            "width": 222,
+            "x": 0,
+            "y": 2
+        },
+        "button": {
+            "height": 71,
+            "width": 111,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 10
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 8
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x768 avec barre de poids horizontale": {
+        "general": {
+            "width": 1024,
+            "height": 768,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height": 3,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 107,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 67,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1024x768 FreshWay": {
+        "general": {
+            "width": 1024,
+            "height": 768,
+            "scale": 118,
+            "position": "h"
+        },
+        "top": {
+            "height": 5,
+            "width": 6,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 3,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 214,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 66,
+            "width": 111,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 9
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1366x768": {
+        "general": {
+            "width": 1366,
+            "height": 768,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height": 3,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 107,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 67,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1366x768 avec barre de poids vertical": {
+        "general": {
+            "width": 1366,
+            "height": 768,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height": 3,
+            "width": 4,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 107,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 67,
+            "width": 110,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "1366x768 avec barre de poids horizontale": {
+        "general": {
+            "width": 1366,
+            "height": 768,
+            "scale": 84,
+            "position": "h"
+        },
+        "top": {
+            "height": 5,
+            "width": 8,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 5,
+            "width": 5,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 67,
+            "width": 220,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 68,
+            "width": 112,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 9
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 7
+        },
+        "denied_logo": {
+            "height": 1,
+            "width": 2,
+            "x": 0,
+            "y": 0
+        }
+    }
+}

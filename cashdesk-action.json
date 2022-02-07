@@ -1,0 +1,385 @@
+{
+    "OuvertureTiroir": {
+        "label": "Ouverture Tiroir",
+        "icon": "IOpenDrawer",
+        "category": "Action caisse"
+    },
+    "ControleTiroir": {
+        "label": "Contrôle Tiroir",
+        "icon": "IControlDrawer",
+        "category": "Action caisse"
+    },
+    "LancerModeSelf": {
+        "label": "Lancer mode SELF",
+        "icon": "IAddOrder",
+        "category": "Action caisse"
+    },
+    "RepriseModeSelf": {
+        "label": "Reprise mode SELF",
+        "icon": "IAddOrder",
+        "category": "Action caisse"
+    },
+    "QuitterModeSelf": {
+        "label": "Quitter mode SELF",
+        "icon": "IAddOrder",
+        "category": "Action caisse"
+    },
+    "ClotureFiscale": {
+        "label": "Clôture Fiscale",
+        "icon": "IFiscalClosure",
+        "category": "Responsable"
+    },
+    "ApportMonnaie": {
+        "label": "Apport Monnaie",
+        "icon": "IMoneyChange",
+        "category": "Action caisse"
+    },
+    "RepriseTicket": {
+        "label": "Reprise ticket",
+        "icon": "IRecoveryTicket",
+        "category": "Général"
+    },
+    "AttenteTicket": {
+        "label": "Attente ticket",
+        "icon": "IWaitTicket",
+        "category": "Général"
+    },
+    "AnnulationLigne": {
+        "label": "Annulation ligne",
+        "icon": "ICancelLigne",
+        "category": "Général"
+    },
+    "ModificationQuantite": {
+        "label": "Modifier quantité",
+        "icon": "IEditQuantity",
+        "category": "Général"
+    },
+    "ModificationPrix": {
+        "label": "Prix forcé",
+        "icon": "IEditPrice",
+        "category": "Général"
+    },
+    "changeFIProduits": {
+        "label": "Produits",
+        "icon": "IProduct",
+        "category": "Changement page",
+        "color": "#69C2C6"
+    },
+    "changeFIClients": {
+        "label": "Clients",
+        "icon": "ICustomer",
+        "category": "Changement page",
+        "color": "#69C2C6"
+    },
+    "changeFIPaiement": {
+        "label": "Paiements",
+        "icon": "IPayment",
+        "category": "Changement page",
+        "color": "#B7D47D"
+    },
+    "changeFIRecus": {
+        "label": "Reçus",
+        "icon": "IReceipt",
+        "category": "Changement page",
+        "color": "#B7D47D"
+    },
+    "changeFICommmandes": {
+        "label": "Commandes",
+        "icon": "IOrder",
+        "category": "Changement page",
+        "color": "#C477AF"
+    },
+    "changeFIConsignes": {
+        "label": "Consignes",
+        "icon": "IDeposit",
+        "category": "Changement page",
+        "color": "#C477AF"
+    },
+    "changeFIVendeurs": {
+        "label": "Vendeurs",
+        "icon": "ICashier",
+        "category": "Changement page",
+        "color": "#8860A6"
+    },
+    "changeFIInitialisation": {
+        "label": "Initialisation",
+        "icon": "IInit",
+        "category": "Changement page",
+        "color": "#8860A6"
+    },
+    "changeFIManager": {
+        "label": "Manager",
+        "icon": "IManager",
+        "category": "Changement page",
+        "color": "#EC7165"
+    },
+    "RechercheRayon": {
+        "label": "Rayons",
+        "icon": "IShielf",
+        "category": "Produit"
+    },
+    "RechercheRayon_1": {
+        "label": "Rayon spécifique",
+        "icon": "IAddShielf",
+        "need": "shielf",
+        "category": "Spécifique"
+    },
+    "RechercheFamille": {
+        "label": "Familles",
+        "icon": "IFamily",
+        "category": "Produit"
+    },
+    "RechercheFamille_1": {
+        "label": "Famille spécifique",
+        "icon": "IAddFamily",
+        "need": "family",
+        "category": "Spécifique"
+    },
+    "RechercheProduit": {
+        "label": "Produits",
+        "icon": "ISearchProduct",
+        "category": "Produit"
+    },
+    "AjoutProduit": {
+        "label": "Produit spécifique",
+        "icon": "IAddProduct",
+        "need": "product",
+        "category": "Spécifique"
+    },
+    "FraisEmballe": {
+        "label": "Frais emballé",
+        "icon": "IFreshPacked",
+        "category": "Labo"
+    },
+    "ScanLibre": {
+        "label": "Scan libre",
+        "icon": "IReturn",
+        "category": "Produit"
+    },
+    "RetourProduit": {
+        "label": "Retour produit",
+        "icon": "IAddTrash",
+        "category": "Produit"
+    },
+    "MiseEnCasse": {
+        "label": "Mise en casse",
+        "icon": "IListTrash",
+        "category": "Produit"
+    },
+    "ListeClient": {
+        "label": "Liste clients",
+        "icon": "IListCustomer",
+        "category": "Client"
+    },
+    "RechercheClient": {
+        "label": "Recherche client",
+        "icon": "ISearchCustomer",
+        "category": "Client"
+    },
+    "CreationClient": {
+        "label": "Création client",
+        "icon": "IAddCustomer",
+        "category": "Client"
+    },
+    "Paiement": {
+        "label": "Paiement",
+        "icon": "IPaymentCB",
+        "need": "payment_type",
+        "category": "Paiement"
+    },
+    "RemiseTicket": {
+        "label": "Remise ticket",
+        "icon": "IDiscountTicket",
+        "category": "Paiement"
+    },
+    "RabaisTicket": {
+        "label": "Rabais ticket",
+        "icon": "IRebateTicket",
+        "category": "Paiement"
+    },
+    "DuplicataFacture": {
+        "label": "Duplicata Facture",
+        "icon": "IInvoiceDuplicateInvoice",
+        "category": "Ticket"
+    },
+    "DuplicataTicket": {
+        "label": "Duplicata Ticket",
+        "icon": "IInvoiceDuplicateTicket",
+        "category": "Ticket"
+    },
+    "DuplicataFacturette": {
+        "label": "Duplicata Facturette",
+        "icon": "ISmallInvoiceReceipt",
+        "category": "Ticket"
+    },
+    "VenteConsigne": {
+        "label": "Vente Consigne",
+        "icon": "ISellDeposite",
+        "category": "Consigne"
+    },
+    "RetourConsigne": {
+        "label": "Retour Consigne",
+        "icon": "IReturnDeposite",
+        "category": "Consigne"
+    },
+    "InitBalance": {
+        "label": "Init. Balance",
+        "icon": "IInitScale",
+        "category": "Initialisation"
+    },
+    "InitTPE": {
+        "label": "Init. Terminal CB",
+        "icon": "IInitCB",
+        "category": "Initialisation"
+    },
+    "AbandonTicket": {
+        "label": "Annulation Vente",
+        "icon": "ICancelTicket",
+        "category": "Ticket"
+    },
+    "RemboursementClient": {
+        "label": "Remboursement",
+        "icon": "IRefund",
+        "category": "Client"
+    },
+    "RemiseLigne": {
+        "label": "Remise Produit",
+        "icon": "IProductDiscount",
+        "category": "Action caisse"
+    },
+    "RabaisLigne": {
+        "label": "Rabais Produit",
+        "icon": "IRebateTicket",
+        "category": "Action caisse"
+    },
+    "SauvegardeCaisse": {
+        "label": "Sauvegarde",
+        "icon": "ISave",
+        "category": "Responsable"
+    },
+    "CRCBalance": {
+        "label": "CRC Balance",
+        "icon": "ICRCScale",
+        "category": "Initialisation"
+    },
+    "ConsultationCA": {
+        "label": "Consultation CA",
+        "icon": "ICAView",
+        "category": "Responsable"
+    },
+    "Cloture": {
+        "label": "Clôture Caisse",
+        "icon": "IClosure",
+        "category": "Action caisse"
+    },
+    "FermetureCaisse": {
+        "label": "Fermeture Caisse",
+        "icon": "IClose",
+        "category": "Action caisse"
+    },
+    "PauseCaisse": {
+        "label": "Pause Caisse",
+        "icon": "IPause",
+        "category": "Action caisse"
+    },
+    "DepenseCaisse": {
+        "label": "Dépense Caisse",
+        "icon": "ISpend",
+        "category": "Action caisse"
+    },
+    "RecetteCaisse": {
+        "label": "Recette Caisse",
+        "icon": "IRecipe",
+        "category": "Action caisse"
+    },
+    "PrelevementCaisson": {
+        "label": "Prélèv. Caisson",
+        "icon": "ISample",
+        "category": "Action caisse"
+    },
+    "Tare": {
+        "label": "Tare",
+        "icon": "IInitScale",
+        "category": "Produit"
+    },
+    "AnnulationTicket": {
+        "label": "Annulation Ticket",
+        "icon": "ICancelTicket",
+        "category": "Responsable"
+    },
+    "AnnulationPaiement": {
+        "label": "Annuler paiement",
+        "icon": "IPaymentCorrection",
+        "category": "Paiement"
+    },
+    "CorrectionReglement": {
+        "label": "Correction Règlement",
+        "icon": "IPaymentCorrection",
+        "category": "Paiement"
+    },
+    "ListeCasse": {
+        "label": "Liste casse",
+        "icon": "IProductDiscount",
+        "category": "Produit"
+    },
+    "PoidsLibre": {
+        "label": "Pesee Libre",
+        "icon": "IFreeScan",
+        "category": "Produit"
+    },
+    "SousTotalNominatif": {
+        "label": "Sous total nominatif",
+        "icon": "IAddOrder",
+        "category": "Général"
+    },
+    "ReprisePreparation": {
+        "label": "Reprise préparation",
+        "icon": "IOrder",
+        "category": "Commande"
+    },
+    "SaisieCommande": {
+        "label": "Saisie Commande",
+        "icon": "IAddOrder",
+        "category": "Commande"
+    },
+    "RepriseCommande": {
+        "label": "Reprise Commande",
+        "icon": "IRecoveryOrder",
+        "category": "Commande"
+    },
+    "ValiderPreparationQuantite": {
+        "label": "Valider ligne",
+        "icon": "IOrder",
+        "category": "Commande"
+    },
+    "ModifierPreparationQuantite": {
+        "label": "Quantité ligne",
+        "icon": "IOrder",
+        "category": "Commande"
+    },
+    "AvoirPourcentage": {
+        "label": "Avoir Pourcentage",
+        "icon": "IOrder",
+        "category": "Commande"
+    },
+    "AvoirMontant": {
+        "label": "Avoir montant",
+        "icon": "IOrder",
+        "category": "Commande"
+    },
+    "ArrhePourcentage": {
+        "label": "Arrhe Pourcentage",
+        "icon": "IPaymentIntoAccount",
+        "category": "Commande"
+    },
+    "ArrheMontant": {
+        "label": "Arrhe Montant",
+        "icon": "IPaymentIntoAccount",
+        "category": "Commande"
+    },
+    "ParametrageEtiquette": {
+        "label": "Paramètre étiquette",
+        "icon": "IInvoiceDuplicateTicket",
+        "category": "Produit"
+    }
+}
