@@ -1,0 +1,15 @@
+<ticket>
+    <img src="Logo.bmp"></img>
+    <br></br>
+    <h1>Avoir</h1> <!-- Titre -->
+    <br></br>
+    <b align="center">Date : { DATE } {HEURE}</b>
+    <b align="center">Expire le : {ExpireDate}</b>
+    <h1 align="center">Valeur {Amount}€ HT</h1><!-- Total ici -->
+    <barcode type="code128" text="below" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <break/><!-- Coupure du ticket -->
+</ticket>
