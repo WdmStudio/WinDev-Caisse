@@ -5,7 +5,7 @@
     <br></br>
     <b align="center">Date : { DATE } {HEURE}</b>
     <b align="center">Expire le : {ExpireDate}</b>
-    <h1 align="center">Valeur {Amount}€ HT</h1><!-- Total ici -->
+    <h1 align="center">Valeur {Amount}€</h1><!-- Total ici -->
     <barcode type="code128" text="below" width="150">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
     <br></br>
     <br></br>
