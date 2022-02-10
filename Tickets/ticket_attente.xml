@@ -76,7 +76,7 @@
         <span if="Store.PostalCode&lt;&gt;">{Store.PostalCode}</span> 
         <span id="Store.City&lt;&gt;"> {Store.City|upper}</span>
     </span>
-    <barcode type="code128" text="below" width="200" height="50">{Barcode}</barcode>
+    <barcode type="code128" text="below" width="150">{Barcode}</barcode>
     
     <br></br>
     <br></br>
