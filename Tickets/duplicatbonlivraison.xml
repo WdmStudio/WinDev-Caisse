@@ -20,7 +20,7 @@
         </thead>
         <tbody if="Type=sous_total"> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>    
-                <td><br></br><span>Sous-Total {ProductName} </span><b>{TTCBrutPrice|toPrice}€</b><br></br></td> <!-- Sequence commençant par 1 -->
+                <td><br></br><span>Sous-Total {ProductName} </span><b>{HTBrutPrice|toPrice}€</b><br></br></td> <!-- Sequence commençant par 1 -->
             </tr>
         </tbody>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
@@ -28,12 +28,12 @@
                 <td><span if="UniteType=1">{Quantity|toInt} {UniteName}</span><span if="UniteType&lt;&gt;1">{Quantity|toWeight} {UniteName}</span> x <b if="man=1">MAN&#032;</b><span>{ProductName}</span></td> <!-- Sequence commençant par 1 -->
             </tr>
             <tr>
-                <td>&#032;&#032;&#032;&#032;&#032;{UnitTTCPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
-                <td>{TTCBrutPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
+                <td>&#032;&#032;&#032;&#032;&#032;{HTUnitPrice|toPrice}€ / {UniteName}</td> <!-- Affichage de variable -->
+                <td>{HTBrutPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
         </tbody>
     </table>
-    <h1 align="center">TOTAL = {Header.TTCPrice|toPrice}€</h1><!-- Total ici -->
+    <h1 align="center">TOTAL = {Header.HTPrice|toPrice}€</h1><!-- Total ici -->
     
     <table parameter="vats" nohead="1"> <!-- Table avec valeur dynamique -->
         <thead> <!-- Entete -->
