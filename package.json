@@ -1,0 +1,27 @@
+{
+  "name": "windev-caisse",
+  "version": "1.0.0",
+  "description": "WinDev-Caisse",
+  "main": "updateini.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WdmStudio/WinDev-Caisse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WdmStudio/WinDev-Caisse/issues"
+  },
+  "homepage": "https://github.com/WdmStudio/WinDev-Caisse#readme",
+  "dependencies": {
+    "clui": "^0.3.6",
+    "inquirer": "^8.2.0",
+    "inquirer-autocomplete-prompt": "^1.4.0",
+    "mathjs": "^10.1.1",
+    "read-ini-file": "^3.0.1",
+    "write-ini-file": "^3.0.2"
+  }
+}
