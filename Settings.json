@@ -238,6 +238,12 @@
                     "Metler FreshWay",
                     "Precia Molen CS"
                 ]
+            },
+            "offsetfen": {
+                "type": "stEntier",
+                "label": "Offset vertical de la fenetre",
+                "isDynamic": true,
+                "defaut": 0
             }
         },
         "linedisplay": {
