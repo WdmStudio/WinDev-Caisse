@@ -98,6 +98,8 @@ png/bt_manager_ouvertureTiroir.svg
 PERMISSION.bat
 Settings.json
 Disposition.ini
+logoBlancATLAS.png
+logoBlancWER.png
 DispositionArriere.ini
 Tickets/fondCaisse.xml
 Tickets/depense.xml
@@ -124,3 +126,4 @@ Etiquettes/FraisEmballe.bld
 Etiquettes/003-FE60x80kg.xml
 Etiquettes/005-LS60x80.xml
 Support.bat
+logoNoirWER.svg
