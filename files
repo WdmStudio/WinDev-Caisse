@@ -1,4 +1,5 @@
 package-lock.json
+affichage_liste.png
 png/bt_base_initialisation.svg
 png/bt_paiement_especes.svg
 png/boutonOmbre_13.png
@@ -97,6 +98,8 @@ png/bt_responsable_remiseProduit.svg
 png/bt_manager_ouvertureTiroir.svg
 PERMISSION.bat
 Settings.json
+affichage_image.png
+images/selfservice/Image.png
 Disposition.ini
 logoBlancATLAS.png
 logoBlancWER.png
