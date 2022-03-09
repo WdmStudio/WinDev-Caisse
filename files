@@ -111,6 +111,7 @@ Tickets/ticket_attente.xml
 Tickets/annulationticket.xml
 Tickets/abandonvente.xml
 Tickets/cloture.xml
+Tickets/consigne.xml
 Tickets/bonlivraison.xml
 Tickets/ticket.xml
 Tickets/duplicatticket.xml
