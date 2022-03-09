@@ -474,6 +474,12 @@
                 "isDynamic": false,
                 "defaut": "9999"
             },
+            "enteteconsigne": {
+                "type": "stBooleen",
+                "label": "Entete consigne",
+                "isDynamic": false,
+                "defaut": "8888"
+            },
             "authorizecabref": {
                 "type": "stBooleen",
                 "label": "Autoriser les poids prix par référence",
