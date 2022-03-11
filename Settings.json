@@ -239,6 +239,18 @@
                     "Precia Molen CS"
                 ]
             },
+            "minweight": {
+                "type": "stEntier",
+                "label": "Poids minimum indiqué sur la balance",
+                "isDynamic": true,
+                "defaut": 40
+            },
+            "maxweight": {
+                "type": "stEntier",
+                "label": "Poids maximum indiqué sur la balance",
+                "isDynamic": true,
+                "defaut": 15000
+            },
             "offsetfen": {
                 "type": "stEntier",
                 "label": "Offset vertical de la fenetre",
