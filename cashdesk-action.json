@@ -381,5 +381,10 @@
         "label": "Paramètre étiquette",
         "icon": "IInvoiceDuplicateTicket",
         "category": "Produit"
+    },
+    "PointVert": {
+        "label": "Point vert",
+        "icon": "IPaymentIntoAccount",
+        "category": "Paiement"
     }
 }
