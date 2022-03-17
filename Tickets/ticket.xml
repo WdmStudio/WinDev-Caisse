@@ -61,7 +61,7 @@
         </thead>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>
-                <td>{Abbreviation}</td> <!-- Sequence commençant par 1 -->
+                <td>{Abbreviation}-</td> <!-- Sequence commençant par 1 -->
                 <td>{ProductName}</td> <!-- Affichage de variable -->
                 <td>{TTCPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
