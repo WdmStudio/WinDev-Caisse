@@ -202,6 +202,12 @@
                 "label": "Parity COM",
                 "isDynamic": false,
                 "defaut": 1
+            },
+            "check": {
+                "type": "stBooleen",
+                "label": "Activer les cheques",
+                "isDynamic": false,
+                "defaut": false
             }
         },
         "balance": {
