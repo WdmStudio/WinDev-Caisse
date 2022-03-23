@@ -384,7 +384,7 @@
     },
     "PointVert": {
         "label": "Point vert",
-        "icon": "IPaymentIntoAccount",
+        "icon": "IInitCB",
         "category": "Paiement"
     }
 }
