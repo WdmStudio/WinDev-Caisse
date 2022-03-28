@@ -162,6 +162,12 @@
                 "label": "Imprimante Mettler ?",
                 "isDynamic": false,
                 "defaut": false
+            },
+            "precia": {
+                "type": "stBooleen",
+                "label": "Imprimante Precia Molen ?",
+                "isDynamic": false,
+                "defaut": false
             }
         },
         "tpe": {
