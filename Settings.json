@@ -449,6 +449,18 @@
         		"label": "Hauteur",
         		"isDynamic": false,
         		"defaut": 600
+        	},
+        	"showlogo": {
+        		"type": "stBooleen",
+        		"label": "Affiche le logo",
+        		"isDynamic": false,
+        		"defaut": false
+        	},
+        	"scalebarheight": {
+        		"type": "stEntier",
+        		"label": "Hauteur de barre de poids (px)",
+        		"isDynamic": false,
+        		"defaut": 0
         	}
         }
     },
