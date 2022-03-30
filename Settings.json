@@ -159,7 +159,7 @@
             },
             "mettler": {
                 "type": "stBooleen",
-                "label": "Imprimante Mettler ?",
+                "label": "Imprimante Metler ?",
                 "isDynamic": false,
                 "defaut": false
             },
