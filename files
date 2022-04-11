@@ -1,5 +1,7 @@
 Support.bat
 affichage_liste.png
+JSONedit.cfg
+JSONedit_jsoncons.dll
 affichage_image.png
 images/selfservice/Image.png
 png/bt_reprise_ticket.svg
@@ -137,6 +139,7 @@ Etiquettes/007-LS60x100.xml
 Etiquettes/003-FE60x80kg.xml
 wcl_dll.dll
 logoBlancATLAS.png
+JSONedit.exe
 package-lock.json
 Settings.json
 DispositionArriere.ini
