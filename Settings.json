@@ -216,6 +216,40 @@
                 "defaut": false
             }
         },
+        "verifone": {
+            "type": "CATEGORY",
+            "label": "Verifone",
+            "actif": {
+                "type": "stBooleen",
+                "label": "Actif",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "ilot": {
+                "type": "stChaine",
+                "label": "Ilot",
+                "isDynamic": false,
+                "defaut": "WDMSTUP400"
+            },
+            "pathmcl": {
+                "type": "stChaine",
+                "label": "Chemin vers MCL",
+                "isDynamic": false,
+                "defaut": "C:\\CLIENT-WDMSTUDIO-MPE"
+            },
+            "overrideterminal": {
+                "type": "stBooleen",
+                "label": "Remplacer Terminal",
+                "isDynamic": false,
+                "defaut": false
+            },
+            "terminalid": {
+                "type": "stEntier",
+                "label": "Terminal ID",
+                "isDynamic": false,
+                "defaut": 0
+            }
+        },
         "balance": {
             "type": "CATEGORY",
             "label": "Balance",
