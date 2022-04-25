@@ -12,7 +12,7 @@ jobs:
       - name: 'Updating file directories'
         run: find . -type f -not -path '*/\.*' -not \( -name 'update' -o -name 'README.md' -o -name 'files' -o -name 'cashdesk*.json' -o -name 'updateini.js' -o -name 'package.*' \) | sed 's|^./||' > files
       - name: 'Commit and push files'
-        uses: github-actions-x/commit@v2.8
+        uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
