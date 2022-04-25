@@ -601,6 +601,12 @@
                     "label": "Dupliquer les tickets",
                     "isDynamic": false,
                     "defaut": false
+                },
+                "dupliquerattente": {
+                    "type": "stBooleen",
+                    "label": "Dupliquer les tickets attentes",
+                    "isDynamic": false,
+                    "defaut": false
                 }
             },
             "pathticket": {
