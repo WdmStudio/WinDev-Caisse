@@ -138,6 +138,7 @@ Tickets/corner.xml
 Tickets/retourvente.xml
 Tickets/consigne.xml
 Support.bat
+Outils/UpdateFirewall.bat
 Outils/DumpDatabaseMagasin.bat
 Outils/CreateDatabase.bat
 Outils/CreateDefault.sql
