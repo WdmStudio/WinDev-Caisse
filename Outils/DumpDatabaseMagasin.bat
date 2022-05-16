@@ -18,3 +18,5 @@ if exist "C:\Program Files\PostgreSQL\10\bin\pg_dump.exe" (
 ) else (
 	"C:\Program Files (x86)\PostgreSQL\10\bin\pg_dump.exe" -U magasin --host=127.0.0.1 -f %SUBFILENAME% magasin
 )
+
+pause
