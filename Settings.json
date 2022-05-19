@@ -949,7 +949,8 @@
             "defaut": 1,
             "choice": [
                 "WER",
-                "ATLAS"
+                "ATLAS",
+                "REAUTE"
             ]
         }
     },
