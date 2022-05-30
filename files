@@ -109,6 +109,13 @@ png/bt_responsable_commandeCentralisee.svg
 wcl_dll.dll
 DispositionArriere.ini
 JSONedit_jsoncons.dll
+UpdateSyncService/OPOSConnector.wdk
+UpdateSyncService/FiscalityConnector.wdk
+UpdateSyncService/LogComponent.wdk
+UpdateSyncService/Database.wdk
+UpdateSyncService/ScaleConnector.wdk
+UpdateSyncService/SettingsConnector.wdk
+UpdateSyncService/SyncService.exe
 Settings.json
 Support.bat
 logoNoirWER.svg
