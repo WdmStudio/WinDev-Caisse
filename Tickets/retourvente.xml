@@ -72,14 +72,12 @@
     <table parameter="remboursement" nohead="1"> <!-- Table avec valeur dynamique -->
         <thead> <!-- Entete -->
             <tr> <!-- Premiere ligne -->
-                <th width="10"> </th> <!-- Taille de 10% -->
-                <th width="50"> </th> <!-- Taille de 10% -->
+                <th width="60"> </th> <!-- Taille de 10% -->
                 <th width="40" align="right"></th>
             </tr>
         </thead>
         <tbody> <!-- Vue que les valeurs sont dynamique, le contenu de tbody est répété pour chaque ligne dans le paramètre -->
             <tr>
-                <td>{Abbreviation}</td> <!-- Sequence commençant par 1 -->
                 <td>{ProductName}</td> <!-- Affichage de variable -->
                 <td>{TTCPrice|toPrice}€</td> <!-- Condition sur l'affichage de MAN -->
             </tr>
