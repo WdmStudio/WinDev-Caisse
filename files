@@ -8,6 +8,7 @@ Balance/BizerbaKHXCScaleConnector.wdl
 Balance/VCOScaleConnector.wdl
 Balance/XTScaleConnector.wdl
 Balance/PreciaMolenScaleConnector.wdl
+Balance/Dialog06PreciaScaleConnector.wdl
 Balance/FreshVCOScaleConnector.wdl
 Balance/CS300ScaleConnector.wdl
 png/bt_paiement_fidelite.svg
