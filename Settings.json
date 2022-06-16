@@ -943,15 +943,10 @@
             "defaut": false
         },
         "logicieltype": {
-            "type": "stChoix",
+            "type": "stChaine",
             "label": "Type de logiciel ?",
             "isDynamic": false,
-            "defaut": 1,
-            "choice": [
-                "WER",
-                "ATLAS",
-                "REAUTE"
-            ]
+            "defaut": "WER"
         }
     },
     "DISPOSITION": {
