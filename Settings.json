@@ -303,6 +303,18 @@
                 "label": "Offset vertical de la fenetre",
                 "isDynamic": true,
                 "defaut": 0
+            },
+            "usewdmcertificat": {
+                "type": "stBooleen",
+                "label": "Certificat WDM",
+                "isDynamic": true,
+                "defaut": false
+            },
+            "useatlascertificat": {
+                "type": "stBooleen",
+                "label": "Certificat Atlas",
+                "isDynamic": true,
+                "defaut": false
             }
         },
         "linedisplay": {
