@@ -39,6 +39,11 @@
         "icon": "IRecoveryTicket",
         "category": "Général"
     },
+    "RepriseTicketImporte": {
+        "label": "Reprise ticket balance",
+        "icon": "IRecoveryTicket",
+        "category": "Général"
+    },
     "AttenteTicket": {
         "label": "Attente ticket",
         "icon": "IWaitTicket",
