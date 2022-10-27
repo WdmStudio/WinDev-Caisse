@@ -87,14 +87,14 @@
             "y": 0
         },
         "button": {
-            "height": 67,
-            "width": 110,
+            "height": 53.6,
+            "width":88,
             "x": 0,
             "y": 0
         },
         "cashdesk_action": {
             "height": 1,
-            "width": 2,
+            "width": 1,
             "x": 0,
             "y": 7
         },
