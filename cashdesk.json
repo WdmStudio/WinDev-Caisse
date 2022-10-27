@@ -111,6 +111,62 @@
             "y": 0
         }
     },
+    "800x600 barre horizontale / petits boutons": {
+        "general": {
+            "width": 800,
+            "height": 600,
+            "scale": 80,
+            "position": "h"
+        },
+        "top": {
+            "height":5,
+            "width": 5,
+            "x": 0,
+            "y": 0
+        },
+        "middle": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        },
+        "bottom": {
+            "height": 4,
+            "width": 3,
+            "x": 0,
+            "y": 0
+        },
+        "logo": {
+            "height": 59.55,
+            "width": 88,
+            "x": 0,
+            "y": 0
+        },
+        "button": {
+            "height": 59.55,
+            "width":88,
+            "x": 0,
+            "y": 0
+        },
+        "cashdesk_action": {
+            "height": 1,
+            "width": 1,
+            "x": 0,
+            "y": 8
+        },
+        "denied_action": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 5
+        },
+        "denied_logo": {
+            "height": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
     "1024x600": {
         "general": {
             "width": 1024,
