@@ -105,8 +105,8 @@
             "y": 5
         },
         "denied_logo": {
-            "height": 1,
-            "width": 1,
+            "height": 0,
+            "width": 0,
             "x": 0,
             "y": 0
         }
