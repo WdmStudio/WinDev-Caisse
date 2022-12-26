@@ -407,8 +407,8 @@
           "small": true
         },
         "top": {
-          "height": 4,
-          "width": 6,
+          "height": 5,
+          "width": 8,
           "x": 0,
           "y": 0
         },
@@ -419,20 +419,20 @@
           "y": 0
         },
         "bottom": {
-          "height": 6,
-          "width": 3,
+          "height": 7,
+          "width": 4,
           "x": 0,
           "y": 0
         },
         "logo": {
-          "height": 67,
-          "width": 210,
+          "height": 58.33,
+          "width": 83.25,
           "x": 0,
           "y": 0
         },
         "button": {
-          "height": 70,
-          "width": 111,
+          "height": 58.33,
+          "width": 83.25,
           "x": 0,
           "y": 0
         },
