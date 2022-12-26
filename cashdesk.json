@@ -158,10 +158,10 @@
             "y": 8
         },
         "denied_action": {
-            "height": 3,
+            "height": 1,
             "width": 2,
             "x": 0,
-            "y": 5
+            "y": 8
         },
         "denied_logo": {
             "height": 0,
