@@ -1,3 +1,7 @@
+UpdateSyncService/ScaleConnector.wdk
+UpdateSyncService/LogComponent.wdk
+UpdateSyncService/SyncService.exe
+UpdateSyncService/Database.wdk
 ImageManager.wdk
 WerCaisse.wdy
 WerService.wdy
