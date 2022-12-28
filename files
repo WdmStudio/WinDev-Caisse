@@ -3,5 +3,6 @@ UpdateSyncService/LogComponent.wdk
 UpdateSyncService/SyncService.exe
 UpdateSyncService/Database.wdk
 ImageManager.wdk
+Balance/XTScaleConnector.wdl
 WerCaisse.wdy
 WerService.wdy
