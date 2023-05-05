@@ -1,9 +1,3 @@
 WerService.wdy
 WerCaisse.wdy
-UpdateSyncService/LogComponent.wdk
-UpdateSyncService/SyncService.exe
-UpdateSyncService/Database.wdk
-UpdateSyncService/ScaleConnector.wdk
 Balance/BizerbaKHXCScaleConnector.wdl
-Balance/XTScaleConnector.wdl
-ImageManager.wdk
