@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21">
+  <g id="Groupe_1415" data-name="Groupe 1415" transform="translate(-96 3797)">
+    <rect id="Rectangle_3484" data-name="Rectangle 3484" width="24" height="21" transform="translate(96 -3797)" fill="none"/>
+    <g id="Groupe_1409" data-name="Groupe 1409" transform="translate(21 -3872)">
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cy="0.5" ry="0.5" transform="translate(82 84)" fill="#b7d47e"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" transform="translate(82 82)" fill="#b7d47e"/>
+      <ellipse id="Ellipse_10" data-name="Ellipse 10" cy="0.5" ry="0.5" transform="translate(82 87)" fill="#b7d47e"/>
+      <ellipse id="Ellipse_11" data-name="Ellipse 11" cy="0.5" ry="0.5" transform="translate(82 90)" fill="#b7d47e"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" transform="translate(82 79)" fill="#b7d47e"/>
+      <path id="Tracé_652" data-name="Tracé 652" d="M98.993,98H95v3.993Z" transform="translate(-4.807 -6.609)" fill="#b7d47e"/>
+      <path id="Tracé_653" data-name="Tracé 653" d="M89.494,91.041a.35.35,0,0,1,.35-.35h4.547V76.35a.35.35,0,0,0-.35-.35H79.35a.35.35,0,0,0-.35.35V95.239a.35.35,0,0,0,.35.35H89.494ZM84.247,78.8h7.7a.35.35,0,0,1,0,.7h-7.7a.35.35,0,1,1,0-.7Zm0,2.8h7.7a.35.35,0,0,1,0,.7h-7.7a.35.35,0,1,1,0-.7Zm0,2.8h7.7a.35.35,0,0,1,0,.7h-7.7a.35.35,0,1,1,0-.7Zm0,2.8h7.7a.35.35,0,0,1,0,.7h-7.7a.35.35,0,1,1,0-.7Zm-2.1,4.2A1.049,1.049,0,1,1,83.2,90.342,1.051,1.051,0,0,1,82.148,91.391Zm0-2.8A1.049,1.049,0,1,1,83.2,87.543,1.051,1.051,0,0,1,82.148,88.593Zm0-2.8A1.049,1.049,0,1,1,83.2,84.745,1.051,1.051,0,0,1,82.148,85.794Zm0-2.8A1.049,1.049,0,1,1,83.2,81.947,1.051,1.051,0,0,1,82.148,83Zm0-2.8A1.049,1.049,0,1,1,83.2,79.148,1.051,1.051,0,0,1,82.148,80.2Zm5.6,10.494h-3.5a.35.35,0,1,1,0-.7h3.5a.35.35,0,1,1,0,.7Z" fill="#b7d47e"/>
+    </g>
+  </g>
+</svg>

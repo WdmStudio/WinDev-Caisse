@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21.5" viewBox="0 0 24 21.5">
+  <g id="Groupe_1416" data-name="Groupe 1416" transform="translate(-96 3766)">
+    <rect id="Rectangle_3485" data-name="Rectangle 3485" width="24" height="21" transform="translate(96 -3766)" fill="none"/>
+    <g id="Groupe_1410" data-name="Groupe 1410" transform="translate(21 -3960)">
+      <path id="Tracé_649" data-name="Tracé 649" d="M83.88,200.531a.349.349,0,0,1-.349.349H79v14.082l10.642-5.675a.35.35,0,0,1,.32,0l4.375,2.187V196.349a.349.349,0,0,0-.349-.349H83.88Zm.349,10.806H81.44a.349.349,0,0,1,0-.7h2.789a.349.349,0,0,1,0,.7Zm4.183-2.091H81.44a.349.349,0,0,1,0-.7h6.971a.349.349,0,0,1,0,.7Zm3.486-2.091H81.44a.349.349,0,0,1,0-.7H91.9a.349.349,0,0,1,0,.7Zm0-2.091H81.44a.349.349,0,1,1,0-.7H91.9a.349.349,0,1,1,0,.7Zm0-2.091H81.44a.349.349,0,0,1,0-.7H91.9a.349.349,0,0,1,0,.7Zm0-2.091H85.623a.349.349,0,0,1,0-.7H91.9a.349.349,0,0,1,0,.7Zm-6.274-2.789H91.9a.349.349,0,0,1,0,.7H85.623a.349.349,0,0,1,0-.7Z" fill="#b7d47e"/>
+      <path id="Tracé_650" data-name="Tracé 650" d="M79.678,221.576l14.473-3.446-4.135-2.067Z" transform="translate(-0.205 -6.076)" fill="#b7d47e"/>
+      <path id="Tracé_651" data-name="Tracé 651" d="M79.293,200.272h3.979v-3.979Z" transform="translate(-0.089 -0.089)" fill="#b7d47e"/>
+    </g>
+  </g>
+</svg>
