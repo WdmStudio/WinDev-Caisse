@@ -1,0 +1,35 @@
+<ticket>
+    <img src="logo.bmp"></img>
+    <br></br>
+    <h1>Bon de réduction</h1> <!-- Titre -->
+    <br></br>
+    <b align="center" ><span if="Header.IDClients&lt;&gt;0">Client:</span> {Client.firstname} {Client.lastname}</b>
+    <b align="center">Date : { DATE } {HEURE}</b>
+    <b align="center">Servi par {Cashier.Firstname|upper}</b>
+    <!--<b align="center">Ticket {Header.IDPointOfSale}-{Header.TicketNumber}</b> -->
+    
+
+    <br></br>
+        <b align="center">Vous bénéficiez d'un bon de réduction par notre programme fidélité</b>
+        <b align="center">Nous vous remercions de votre visite</b>
+    <br></br>
+
+    <h1 align="center">Réduction de = {RegleFid.Values} %</h1>
+
+    <br></br>
+    <b if="Store.Name&lt;&gt;" align="center">{Store.Name}</b>
+    <b if="Store.Address&lt;&gt;" align="center">{Store.Address}</b>
+    <b if="Store.AddressComp&lt;&gt;" align="center">{Store.AddressComp}</b>
+    <b if="Store.PostalCode&lt;&gt;" align="center">{Store.PostalCode}</b>
+    <b if="Store.City&lt;&gt;" align="center">{Store.City|upper}</b>
+    <b if="Store.Siret&lt;&gt;" align="center">SIRET {Store.Siret|upper}</b>
+    <barcode type="code128" text="below" width="500">{Barcode}</barcode> <!-- Impression ean13 avec texte au dessus -->
+    <br></br>
+    <br></br>
+    <b align="center">Ticket à conserver et à présenter lors de votre prochain achat</b>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <break/><!-- Coupure du ticket -->
+</ticket>
