@@ -207,6 +207,11 @@
         "icon": "IInvoiceDuplicateInvoice",
         "category": "Ticket"
     },
+    "DuplicataBl": {
+        "label": "Duplicata Bon livraison",
+        "icon": "IInvoiceDuplicateInvoice",
+        "category": "Action caisse"
+    },
     "DuplicataTicket": {
         "label": "Duplicata Ticket",
         "icon": "IInvoiceDuplicateTicket",
