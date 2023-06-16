@@ -392,6 +392,11 @@
         "icon": "IInvoiceDuplicateTicket",
         "category": "Produit"
     },
+    "Remise5%": {
+        "label": "Remise 5%",
+        "icon": "IProductDiscount",
+        "category": "Produit"
+    },
     "PointVert": {
         "label": "Point vert",
         "icon": "IInitCB",
