@@ -392,7 +392,7 @@
         "icon": "IInvoiceDuplicateTicket",
         "category": "Produit"
     },
-    "Remise5%": {
+    "Remise5Prct": {
         "label": "Remise 5%",
         "icon": "IProductDiscount",
         "category": "Produit"
